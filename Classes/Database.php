@@ -1,5 +1,5 @@
 <?php
-/////  Databse class ois referred to the connection with our database
+/////  Databse class is referred to the connection with our database
 
 class Database
 {
