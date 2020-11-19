@@ -4,7 +4,7 @@
 
 class Booking
 {
-	var $booking_id;
+    var $booking_id;
     var $booking_guest_name;
     var $booking_guest_surname;
     var $booking_guests_number;
