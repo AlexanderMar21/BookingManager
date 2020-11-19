@@ -93,7 +93,7 @@ class Database
 
     public function deleteBooking($booking){  // delete single booking
         $this->connect();
-        $sql = "DELETE FROM booking_details where booking_id =  ?  LIMIT 1";
+        $sql = "DELETE FROM booking_details WHERE booking_id =  ?  LIMIT 1";
         $this->execute($sql , [$booking->booking_id]);
     }
 
