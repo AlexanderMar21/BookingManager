@@ -63,7 +63,7 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <div id="avatar" style=" background-image: url('images/uploads/avatars/<?php echo $_SESSION['userPhoto']?>');" > </div>
                                 <hr>
-                                <a class='dropdown-item' href='index.php?action=111'>My Account</a>
+                                <a class='dropdown-item' href='index.php'>My Account</a>
                                 <!-- Simple users cant see the below -->
                                 <?php if($_SESSION['userType'] == 1) {
                                     echo "<a class='dropdown-item' href='index.php?action=131'>Add New User</a>";
